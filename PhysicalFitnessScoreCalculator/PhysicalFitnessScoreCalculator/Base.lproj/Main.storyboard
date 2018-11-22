@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eN8-9x-qf7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PhysicalFitnessScoreCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Raw Score" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MyN-5d-oTJ" userLabel="Deadlift Text Field">
+                                <rect key="frame" x="16" y="100" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="7bQ-B3-Wwr"/>
+                                </constraints>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="deadLiftTextField:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mnh-ML-6Em"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Raw Score" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pF5-JQ-MG2" userLabel="Power Throw Text Field">
+                                <rect key="frame" x="16" y="138" width="100" height="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="powerThrowTextField:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3IO-ob-p8M"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Raw Score" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P4W-FF-J8x" userLabel="Release Push Up Text Field">
+                                <rect key="frame" x="16" y="176" width="100" height="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="releasePushUpTextField:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BAx-oJ-cVc"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Raw Score" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4U8-hj-DjD" userLabel="Sprint Drag Carry Text Field">
+                                <rect key="frame" x="16" y="214" width="100" height="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="sprintDragCarryTextField:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cTN-qN-pi9"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Raw Score" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7hi-F8-SJ4" userLabel="Leg Tuck Text Field">
+                                <rect key="frame" x="16" y="252" width="100" height="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="legTuckTextField:" destination="BYZ-38-t0r" eventType="touchUpInside" id="14M-qX-0rx"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Raw Score" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mL5-nL-Bso" userLabel="Two Mile Run Text Field">
+                                <rect key="frame" x="16" y="290" width="100" height="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="twoMileRunTextField:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7oG-WP-oT8"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9OC-ny-YTE" userLabel="Deadlift Points Label">
+                                <rect key="frame" x="279" y="100" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.6019891127" green="0.89343229079999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="nTd-bX-3Nf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLr-0z-E6e" userLabel="Power Throw Points Label">
+                                <rect key="frame" x="279" y="138" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.6019891127" green="0.89343229079999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ko0-57-qFq" userLabel="Release Push Up Points Label">
+                                <rect key="frame" x="279" y="176" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.6019891127" green="0.89343229079999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBN-Ug-z9K" userLabel="Sprint Drag Carry Points Label">
+                                <rect key="frame" x="279" y="214" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.6019891127" green="0.89343229079999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZc-nY-ZHD" userLabel="Leg Tuck Points Label">
+                                <rect key="frame" x="279" y="252" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.6019891127" green="0.89343229079999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rd0-fM-R1i" userLabel="Two Mile Run Points Label">
+                                <rect key="frame" x="279" y="290" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.6019891127" green="0.89343229079999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gLr-0z-E6e" firstAttribute="leading" secondItem="Ko0-57-qFq" secondAttribute="leading" id="127-fU-jw7"/>
+                            <constraint firstItem="gLr-0z-E6e" firstAttribute="top" secondItem="9OC-ny-YTE" secondAttribute="bottom" constant="8" symbolic="YES" id="2iL-9F-dkh"/>
+                            <constraint firstItem="9OC-ny-YTE" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="40h-1f-ofg"/>
+                            <constraint firstItem="MyN-5d-oTJ" firstAttribute="trailing" secondItem="pF5-JQ-MG2" secondAttribute="trailing" id="4FM-uP-en2"/>
+                            <constraint firstItem="gLr-0z-E6e" firstAttribute="top" secondItem="pF5-JQ-MG2" secondAttribute="top" id="870-Zk-rjC"/>
+                            <constraint firstItem="P4W-FF-J8x" firstAttribute="top" secondItem="pF5-JQ-MG2" secondAttribute="bottom" constant="8" symbolic="YES" id="AhG-yA-Wcv"/>
+                            <constraint firstItem="gLr-0z-E6e" firstAttribute="trailing" secondItem="Ko0-57-qFq" secondAttribute="trailing" id="Awu-6Q-sRY"/>
+                            <constraint firstItem="cBN-Ug-z9K" firstAttribute="trailing" secondItem="tZc-nY-ZHD" secondAttribute="trailing" id="BoI-ju-Z0G"/>
+                            <constraint firstItem="9OC-ny-YTE" firstAttribute="trailing" secondItem="gLr-0z-E6e" secondAttribute="trailing" id="EEf-OS-i8C"/>
+                            <constraint firstItem="tZc-nY-ZHD" firstAttribute="top" secondItem="7hi-F8-SJ4" secondAttribute="top" id="Ftr-yd-Jth"/>
+                            <constraint firstItem="tZc-nY-ZHD" firstAttribute="top" secondItem="cBN-Ug-z9K" secondAttribute="bottom" constant="8" symbolic="YES" id="Kg7-UX-okT"/>
+                            <constraint firstItem="7hi-F8-SJ4" firstAttribute="leading" secondItem="mL5-nL-Bso" secondAttribute="leading" id="Kvh-HK-0eV"/>
+                            <constraint firstItem="Ko0-57-qFq" firstAttribute="top" secondItem="gLr-0z-E6e" secondAttribute="bottom" constant="8" symbolic="YES" id="LHk-5g-hyp"/>
+                            <constraint firstItem="Ko0-57-qFq" firstAttribute="top" secondItem="P4W-FF-J8x" secondAttribute="top" id="Pbh-rc-Zcv"/>
+                            <constraint firstItem="MyN-5d-oTJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PeK-yq-RFP"/>
+                            <constraint firstItem="Rd0-fM-R1i" firstAttribute="top" secondItem="tZc-nY-ZHD" secondAttribute="bottom" constant="8" symbolic="YES" id="Ph9-B8-cwH"/>
+                            <constraint firstItem="Ko0-57-qFq" firstAttribute="trailing" secondItem="cBN-Ug-z9K" secondAttribute="trailing" id="QSf-Sj-rq7"/>
+                            <constraint firstItem="MyN-5d-oTJ" firstAttribute="leading" secondItem="pF5-JQ-MG2" secondAttribute="leading" id="QTc-lA-ZmG"/>
+                            <constraint firstItem="Rd0-fM-R1i" firstAttribute="top" secondItem="mL5-nL-Bso" secondAttribute="top" id="UEY-IF-Lyf"/>
+                            <constraint firstItem="7hi-F8-SJ4" firstAttribute="top" secondItem="4U8-hj-DjD" secondAttribute="bottom" constant="8" symbolic="YES" id="Uj0-fk-TFC"/>
+                            <constraint firstItem="4U8-hj-DjD" firstAttribute="top" secondItem="P4W-FF-J8x" secondAttribute="bottom" constant="8" symbolic="YES" id="Wvi-xS-hgi"/>
+                            <constraint firstItem="mL5-nL-Bso" firstAttribute="top" secondItem="7hi-F8-SJ4" secondAttribute="bottom" constant="8" symbolic="YES" id="Y0f-MF-cxv"/>
+                            <constraint firstItem="cBN-Ug-z9K" firstAttribute="top" secondItem="Ko0-57-qFq" secondAttribute="bottom" constant="8" symbolic="YES" id="Yag-hm-CGG"/>
+                            <constraint firstItem="9OC-ny-YTE" firstAttribute="leading" secondItem="gLr-0z-E6e" secondAttribute="leading" id="ZQY-4l-Bj1"/>
+                            <constraint firstItem="9OC-ny-YTE" firstAttribute="top" secondItem="MyN-5d-oTJ" secondAttribute="top" id="Zip-zG-UXM"/>
+                            <constraint firstItem="MyN-5d-oTJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="drP-JB-sSR"/>
+                            <constraint firstItem="tZc-nY-ZHD" firstAttribute="leading" secondItem="Rd0-fM-R1i" secondAttribute="leading" id="e9M-Eo-40s"/>
+                            <constraint firstItem="pF5-JQ-MG2" firstAttribute="top" secondItem="MyN-5d-oTJ" secondAttribute="bottom" constant="8" symbolic="YES" id="euJ-ZJ-vWK"/>
+                            <constraint firstItem="P4W-FF-J8x" firstAttribute="trailing" secondItem="4U8-hj-DjD" secondAttribute="trailing" id="hdD-3J-IKQ"/>
+                            <constraint firstItem="P4W-FF-J8x" firstAttribute="leading" secondItem="4U8-hj-DjD" secondAttribute="leading" id="ihl-oi-6Xx"/>
+                            <constraint firstItem="4U8-hj-DjD" firstAttribute="leading" secondItem="7hi-F8-SJ4" secondAttribute="leading" id="k5m-58-Igg"/>
+                            <constraint firstItem="tZc-nY-ZHD" firstAttribute="trailing" secondItem="Rd0-fM-R1i" secondAttribute="trailing" id="kku-Vd-T8v"/>
+                            <constraint firstItem="Rd0-fM-R1i" firstAttribute="bottom" secondItem="mL5-nL-Bso" secondAttribute="bottom" id="og1-Oh-KJQ"/>
+                            <constraint firstItem="pF5-JQ-MG2" firstAttribute="trailing" secondItem="P4W-FF-J8x" secondAttribute="trailing" id="pAF-4S-Yp3"/>
+                            <constraint firstItem="4U8-hj-DjD" firstAttribute="trailing" secondItem="7hi-F8-SJ4" secondAttribute="trailing" id="qzX-Q3-jV2"/>
+                            <constraint firstItem="cBN-Ug-z9K" firstAttribute="leading" secondItem="tZc-nY-ZHD" secondAttribute="leading" id="rmH-LH-JPT"/>
+                            <constraint firstItem="7hi-F8-SJ4" firstAttribute="trailing" secondItem="mL5-nL-Bso" secondAttribute="trailing" id="sLm-oX-dsE"/>
+                            <constraint firstItem="cBN-Ug-z9K" firstAttribute="top" secondItem="4U8-hj-DjD" secondAttribute="top" id="saF-9p-bbi"/>
+                            <constraint firstItem="Ko0-57-qFq" firstAttribute="leading" secondItem="cBN-Ug-z9K" secondAttribute="leading" id="wi7-Eb-0yD"/>
+                            <constraint firstItem="pF5-JQ-MG2" firstAttribute="leading" secondItem="P4W-FF-J8x" secondAttribute="leading" id="x1V-s6-yhh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xsF-vO-p8L"/>
+                    <connections>
+                        <outlet property="deadliftPointsLabel" destination="9OC-ny-YTE" id="8wj-bl-9eA"/>
+                        <outlet property="legTuckPointsLabel" destination="tZc-nY-ZHD" id="VkP-9s-QuB"/>
+                        <outlet property="powerThrowPointsLabel" destination="gLr-0z-E6e" id="nHr-hs-dGh"/>
+                        <outlet property="releasePushUpPointsLabel" destination="Ko0-57-qFq" id="Wq7-3b-HkW"/>
+                        <outlet property="sprintDragCarryPointsLabel" destination="cBN-Ug-z9K" id="mFB-LU-oZo"/>
+                        <outlet property="twoMileRunPointsLabel" destination="Rd0-fM-R1i" id="Ai5-Fk-gyg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="586" y="152"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="abI-M9-GHZ">
+            <objects>
+                <navigationController id="eN8-9x-qf7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2SQ-q1-WXS">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="BW0-En-JlQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cLm-nt-VLb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-278" y="152"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4D2251621A4EBA600AB39A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D2251521A4EBA600AB39A9 /* AppDelegate.swift */; };
+		E4D2251821A4EBA600AB39A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D2251721A4EBA600AB39A9 /* ViewController.swift */; };
+		E4D2251B21A4EBA600AB39A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D2251921A4EBA600AB39A9 /* Main.storyboard */; };
+		E4D2251D21A4EBA600AB39A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D2251C21A4EBA600AB39A9 /* Assets.xcassets */; };
+		E4D2252021A4EBA600AB39A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4D2251E21A4EBA600AB39A9 /* LaunchScreen.storyboard */; };
+		E4F965A821A5DE1200D6E375 /* RawScoreBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F965A721A5DE1200D6E375 /* RawScoreBank.swift */; };
+		E4F965AA21A5F09200D6E375 /* RawScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F965A921A5F09200D6E375 /* RawScore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4D2251221A4EBA600AB39A9 /* PhysicalFitnessScoreCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicalFitnessScoreCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D2251521A4EBA600AB39A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4D2251721A4EBA600AB39A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4D2251A21A4EBA600AB39A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4D2251C21A4EBA600AB39A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4D2251F21A4EBA600AB39A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4D2252121A4EBA600AB39A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F965A721A5DE1200D6E375 /* RawScoreBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawScoreBank.swift; sourceTree = "<group>"; };
+		E4F965A921A5F09200D6E375 /* RawScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawScore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4D2250F21A4EBA600AB39A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4D2250921A4EBA600AB39A9 = {
+			isa = PBXGroup;
+			children = (
+				E4D2251421A4EBA600AB39A9 /* PhysicalFitnessScoreCalculator */,
+				E4D2251321A4EBA600AB39A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4D2251321A4EBA600AB39A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4D2251221A4EBA600AB39A9 /* PhysicalFitnessScoreCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4D2251421A4EBA600AB39A9 /* PhysicalFitnessScoreCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				E4D2251521A4EBA600AB39A9 /* AppDelegate.swift */,
+				E4D2251721A4EBA600AB39A9 /* ViewController.swift */,
+				E4F965A921A5F09200D6E375 /* RawScore.swift */,
+				E4F965A721A5DE1200D6E375 /* RawScoreBank.swift */,
+				E4D2251921A4EBA600AB39A9 /* Main.storyboard */,
+				E4D2251C21A4EBA600AB39A9 /* Assets.xcassets */,
+				E4D2251E21A4EBA600AB39A9 /* LaunchScreen.storyboard */,
+				E4D2252121A4EBA600AB39A9 /* Info.plist */,
+			);
+			path = PhysicalFitnessScoreCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4D2251121A4EBA600AB39A9 /* PhysicalFitnessScoreCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D2252421A4EBA600AB39A9 /* Build configuration list for PBXNativeTarget "PhysicalFitnessScoreCalculator" */;
+			buildPhases = (
+				E4D2250E21A4EBA600AB39A9 /* Sources */,
+				E4D2250F21A4EBA600AB39A9 /* Frameworks */,
+				E4D2251021A4EBA600AB39A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysicalFitnessScoreCalculator;
+			productName = PhysicalFitnessScoreCalculator;
+			productReference = E4D2251221A4EBA600AB39A9 /* PhysicalFitnessScoreCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4D2250A21A4EBA600AB39A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Chris UTD";
+				TargetAttributes = {
+					E4D2251121A4EBA600AB39A9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E4D2250D21A4EBA600AB39A9 /* Build configuration list for PBXProject "PhysicalFitnessScoreCalculator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4D2250921A4EBA600AB39A9;
+			productRefGroup = E4D2251321A4EBA600AB39A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4D2251121A4EBA600AB39A9 /* PhysicalFitnessScoreCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4D2251021A4EBA600AB39A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D2252021A4EBA600AB39A9 /* LaunchScreen.storyboard in Resources */,
+				E4D2251D21A4EBA600AB39A9 /* Assets.xcassets in Resources */,
+				E4D2251B21A4EBA600AB39A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4D2250E21A4EBA600AB39A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F965A821A5DE1200D6E375 /* RawScoreBank.swift in Sources */,
+				E4D2251821A4EBA600AB39A9 /* ViewController.swift in Sources */,
+				E4D2251621A4EBA600AB39A9 /* AppDelegate.swift in Sources */,
+				E4F965AA21A5F09200D6E375 /* RawScore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4D2251921A4EBA600AB39A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4D2251A21A4EBA600AB39A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4D2251E21A4EBA600AB39A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4D2251F21A4EBA600AB39A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4D2252221A4EBA600AB39A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4D2252321A4EBA600AB39A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4D2252521A4EBA600AB39A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4UDJXN9P7;
+				INFOPLIST_FILE = PhysicalFitnessScoreCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisUTD.PhysicalFitnessScoreCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4D2252621A4EBA600AB39A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4UDJXN9P7;
+				INFOPLIST_FILE = PhysicalFitnessScoreCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisUTD.PhysicalFitnessScoreCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4D2250D21A4EBA600AB39A9 /* Build configuration list for PBXProject "PhysicalFitnessScoreCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D2252221A4EBA600AB39A9 /* Debug */,
+				E4D2252321A4EBA600AB39A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D2252421A4EBA600AB39A9 /* Build configuration list for PBXNativeTarget "PhysicalFitnessScoreCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D2252521A4EBA600AB39A9 /* Debug */,
+				E4D2252621A4EBA600AB39A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4D2250A21A4EBA600AB39A9 /* Project object */;
+}
